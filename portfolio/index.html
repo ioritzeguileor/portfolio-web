@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Style Sheet Reference-->
+    <link rel="stylesheet" href="assets/css/styles.css"/>
+    <!-- JS Script-->
+    <link rel="icon" href="assets/images/25a60b0fee6678396b24ffc0446bc5b2a0f9614f_hq.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Ioritz Eguileor | SWE</title>
+
+</head>
+<body>
+    <nav>
+        <h1>Ioritz Eguileor</h1>
+        <ul class="navigation">
+            <li><a href="#about" class="nav-link">about</a></li>
+            <li><a href="#skills" class="nav-link">skills</a></li>
+            <li><a href="#projects" class="nav-link">projects</a></li>
+            <li><a href="#contact" class="nav-link">contact</a></li>
+        </ul>
+        <!-- Creates Hamburger Icon Only Viewable in Mobile to access the different elements of the page-->
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"> </ion-icon>
+        </button>
+    </nav>
+
+
+    <section class="hero" id="about">
+        <img 
+            src="assets/images/ioritzself.png"
+            alt="ioritz"
+            loading="eager"
+            class="hero-img"
+            />
+        <div class="bio animate__animated anime__shakeX">
+            <h1 class="bio-title1">Hello, I'm</h1>
+            <h1 class="bio-title2">Ioritz Eguileor</h1>
+            <p class="bio-txt">
+                A CS student at the University of Florida. Some of my interests are: Tech, Working Out, Anime, and Self-Improvement.
+            </p>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <h2 class="skill-title">Skills</h2>
+        <div class="skills-section">
+            <div class="first-set animate__animated animate__pulse">
+                <img
+                  src="assets/icons/icons8-html-5.svg"
+                  alt=""
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+                <img
+                  src="assets/icons/icons8-css3.svg"
+                  alt=""
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+                <img
+                  src="assets/icons/icons8-javascript.svg"
+                  alt=""
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+              </div>
+
+              <div class="second-set animate__animated animate__pulse">
+                <img
+                  src="assets/icons/icons8-java (1).svg"
+                  alt=""
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+                <img
+                  src="assets/icons/icons8-python.svg"
+                  alt=""
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+              </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2>Contact</h2>
+        <div class="contact-form-container">
+            <div class="contact-form">
+              <form action="https://formspree.io/f/xwkydejw" method="POST">
+                <div class="form-control">
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="sender-name"
+                    placeholder="Enter Your Name"
+                    class="input-field"
+                    required
+                  />
+                </div>
+                <div class="form-control">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="sender-email"
+                    placeholder="Enter Your Email"
+                    class="input-field"
+                    required
+                  />
+                </div>
+                <div class="form-control">
+                  <label for="message">Message</label>
+                  <textarea
+                    id="message"
+                    cols="60"
+                    rows="10"
+                    placeholder="Enter Your Message"
+                    name="message"
+                    class="input-field"
+                    required
+                  ></textarea>
+                </div>
+                <input
+                  type="submit"
+                  value="Submit"
+                  id="submit-btn"
+                  class="submit-btn"
+                />
+              </form>
+            </div>
+          </div>
+    </section>
+    <div class="socials">
+        <h3> For any additional inquiries feel free to message me through my gmail or linkedin! :)</h3>
+        <h1 id="gmail">ioritzeguileor@gmail.com</h1>
+    </div>
+    <footer>
+        <div class="socons">
+            <a href="https://github.com/ioritzeguileor" target="_blank">
+                <img
+                src="assets/icons/icons8-github (1).svg"
+                loading="lazy"
+                alt=""
+                class="socicon"
+                />
+            </a>
+            <a href="https://www.linkedin.com/in/ioritz-eguileor-91877a175/" target="_blank">
+                <img
+                src="assets/icons/icons8-linkedin.svg"
+                loading="lazy"
+                alt=""
+                class="socicon"
+                />
+            </a>
+    
+        </div>
+        <p class="copy">&copy; Copyright 2022 Built By
+          <a href="https://www.linkedin.com/in/ioritz-eguileor-91877a175/" target="_blank"
+            >Ioritz Eguileor</a>
+        </p>
+  </footer>
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-up-96.png"
+        class="socicon up-arrow"
+        alt="scroll-up"
+    /></i>
+    <!--JS CODE-->
+    <script src="assets/js/app.js"></script>
+    <!--JS ION ICONS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+</body>
+</html>
